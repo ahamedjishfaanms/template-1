@@ -1,45 +1,53 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Wl4BnH1zgj/Zizc9moNUEAPa2QKA6apdV4c8AJKMvzPryiFns1e9e1Wz0E2X3i63S2aXY3/9Q2UaFn4WCTz2/9g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Your Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorful Website Template</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="logo">
-                <img src="logo.png" alt="Logo">
-            </div>
-            <div class="pages">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#team">Meet the Team</a></li>
-                    <li><a href="#brands">Brands</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="social-icons">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <!-- Add more social media icons as needed -->
-            </div>
-        </div>
-    </header>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="logo">Colorful Website</a>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- The rest of your HTML content remains unchanged -->
-    <!-- ... -->
+  <main class="main">
+    <section class="hero">
+      <h1>Welcome to Colorful Website</h1>
+      <p>This is a colorful website template with a responsive mobile-friendly navigation bar.</p>
+    </section>
 
-    <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+    <section class="about">
+      <h2>About Us</h2>
+      <p>We are a team of passionate designers and developers who love creating beautiful and user-friendly websites.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2023 Colorful Website</p>
+  </footer>
 </body>
 </html>
