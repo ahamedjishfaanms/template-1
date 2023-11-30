@@ -13,6 +13,76 @@ header {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+.slideshow {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    text-align: justify;
+}
+
+.blog-post {
+    margin-top: 20px;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+    margin: 10px;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.brand-logo {
+    max-width: 100px;
+    max-height: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* styles.css */
+
+/* ... (previous styles remain unchanged) */
+
 header {
     background-color: #333;
     color: white;
@@ -93,57 +163,4 @@ nav {
 
 .fa-instagram:hover {
     color: #e4405f;
-}
-
-section {
-    padding: 20px;
-}
-
-.slideshow {
-    max-width: 100%;
-    overflow: hidden;
-}
-
-.slideshow img {
-    width: 100%;
-    height: auto;
-}
-
-.content {
-    text-align: justify;
-}
-
-.blog-post {
-    margin-top: 20px;
-}
-
-.team-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.team-member {
-    text-align: center;
-    margin: 10px;
-}
-
-.brand-logos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.brand-logo {
-    max-width: 100px;
-    max-height: 50px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
 }
