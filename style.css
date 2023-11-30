@@ -1,90 +1,80 @@
 body {
   font-family: sans-serif;
-}
-
-header {
-  background-color: #f0f0f0;
-  padding: 20px;
-}
-
-.logo {
-  width: 150px;
-  height: auto;
-}
-
-nav {
-  float: right;
-}
-
-nav ul {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-nav li {
-  display: inline-block;
-  margin-left: 20px;
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 0 auto;
 }
 
-nav a {
-  text-decoration: none;
-  color: #333;
+.mySlides {
+  display: none;
 }
 
-.hero {
-  background-image: url('hero.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  text-align: center;
+.mySlides img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  background-color: #888888;
   color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
-.hero .container {
-  padding: 100px 0;
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-.hero h1 {
-  font-size: 48px;
+.prev:hover, .next:hover {
+  background-color: #aaaaaa;
 }
 
-.hero p {
-  font-size: 18px;
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-.hero .btn {
+.active {
+  background-color: #717171;
+}
+
+.caption-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 2px 16px;
+  text-align: center;
+}
+
+.caption-button {
   background-color: #007bff;
   color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
 }
-
-.about {
-  padding: 20px;
-}
-
-.about h2 {
-  font-size: 24px;
-}
-
-.contact {
-  padding: 20px;
-}
-
-.contact h2 {
-  font-size: 24px;
-}
-
-form {
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-
-label {
-  display: block;
-  margin-bottom: 10px;
-}
-
